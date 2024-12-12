@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Sute">
+    <test thread-count="5" name="Submit order test">
+    <groups>
+        <run>
+            <include name="Purchase"/>
+        </run>
+    </groups>
+
+        <classes>
+             <class name="Tests.StandAloneTest"/>
+        </classes>
+    </test>
+</suite>
