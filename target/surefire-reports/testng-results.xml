@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T15:10:44 GMT+04:00" name="Sute" finished-at="2024-12-14T15:11:04 GMT+04:00" duration-ms="20728">
+  <suite started-at="2024-12-19T08:37:16 GMT+04:00" name="Sute" finished-at="2024-12-19T08:37:36 GMT+04:00" duration-ms="19772">
     <groups>
       <group name="Purchase">
         <method signature="StandAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:Tests.StandAloneTest@1e178745]" name="submitOrder" class="Tests.StandAloneTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2024-12-14T15:10:44 GMT+04:00" name="Submit order test" finished-at="2024-12-14T15:11:04 GMT+04:00" duration-ms="20728">
+    <test started-at="2024-12-19T08:37:16 GMT+04:00" name="Submit order test" finished-at="2024-12-19T08:37:36 GMT+04:00" duration-ms="19772">
       <class name="Tests.StandAloneTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:10:44 GMT+04:00" name="launchApplication" finished-at="2024-12-14T15:10:49 GMT+04:00" duration-ms="4813" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:16 GMT+04:00" name="launchApplication" finished-at="2024-12-19T08:37:21 GMT+04:00" duration-ms="4501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:10:49 GMT+04:00" name="submitOrder" data-provider="getData" finished-at="2024-12-14T15:10:54 GMT+04:00" duration-ms="5834" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:21 GMT+04:00" name="submitOrder" data-provider="getData" finished-at="2024-12-19T08:37:27 GMT+04:00" duration-ms="6003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,15 +25,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeTheTest()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:10:54 GMT+04:00" name="closeTheTest" finished-at="2024-12-14T15:10:55 GMT+04:00" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="closeTheTest()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:27 GMT+04:00" name="closeTheTest" finished-at="2024-12-19T08:37:27 GMT+04:00" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheTest -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:10:55 GMT+04:00" name="launchApplication" finished-at="2024-12-14T15:10:59 GMT+04:00" duration-ms="4083" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:27 GMT+04:00" name="launchApplication" finished-at="2024-12-19T08:37:30 GMT+04:00" duration-ms="3245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:10:59 GMT+04:00" name="submitOrder" data-provider="getData" finished-at="2024-12-14T15:11:04 GMT+04:00" duration-ms="5768" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:30 GMT+04:00" name="submitOrder" data-provider="getData" finished-at="2024-12-19T08:37:36 GMT+04:00" duration-ms="5777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeTheTest()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-14T15:11:04 GMT+04:00" name="closeTheTest" finished-at="2024-12-14T15:11:04 GMT+04:00" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="closeTheTest()[pri:0, instance:Tests.StandAloneTest@1e178745]" started-at="2024-12-19T08:37:36 GMT+04:00" name="closeTheTest" finished-at="2024-12-19T08:37:36 GMT+04:00" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheTest -->
